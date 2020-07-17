@@ -1,0 +1,22 @@
+.Products{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    margin-left: 20px;
+    justify-content: space-between;
+    
+}
+.Products button{
+    text-align: center;
+}
+.show{
+    border: 1px dotted black;
+    justify-content: space-between;
+}
+.show img{
+    margin-left:70px;
+}
+.show .formatmoney{
+    border: none;
+    margin-left: 20px;
+}
